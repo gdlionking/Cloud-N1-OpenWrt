@@ -4,6 +4,9 @@ cd openwrt
 #rm -rf files/etc/config/wireless
 #rm -rf files/etc/modules.d/wireless_enable
 # Add luci-app-openclash
+UPLOAD_BIN_DIR: true
+
+
 git clone https://github.com/vernesong/OpenClash.git package-temp
 mv -f package-temp/luci-app-openclash package/lean/
 rm -rf package-temp
