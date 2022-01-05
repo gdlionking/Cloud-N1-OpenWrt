@@ -16,6 +16,7 @@ env:
   CONFIG_FILE: .config
   SCRIPT_SH: script.sh
   CONFIG_SH: config.sh
+  UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
 
